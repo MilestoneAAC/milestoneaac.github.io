@@ -1,0 +1,2 @@
+x <- runif(100)
+save(x, file = paste0("data-raw/data_", make.names(Sys.time()), ".Rda"))
