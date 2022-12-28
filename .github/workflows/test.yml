@@ -29,7 +29,7 @@ jobs:
       run: |
         git config --local user.name actions-user
         git config --local user.email "actions@github.com"
-        git add data/*
+        git add r/*
         git commit -am "GH ACTION Headlines $(date)"
         git push origin main
       env:
